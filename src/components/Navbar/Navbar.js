@@ -5,19 +5,18 @@ import { BsClock } from "react-icons/bs";
 import './Navbar.scss'
 import { NavLink } from 'react-router-dom';
 import { FiAlignRight, FiXCircle } from "react-icons/fi";
+import logo from '../../Assets/logo.jpeg'
 
 function Navbar() {
-    const [navScroll, setNavScroll] = useState(false);
-    const changeBackground = () => {
-        // the 130 below means where you want the background to change when scroll
-        // it is advisable to put the background at the height of the navbar
-        if (window.scrollY >= 130) {
-            setNavScroll(true);
-        } else {
-            setNavScroll(false)
-        }
-    }
-    window.addEventListener('scroll', changeBackground)
+    // const [navScroll, setNavScroll] = useState(false);
+    // const changeBackground = () => {
+    //     if (window.scrollY >= 130) {
+    //         setNavScroll(true);
+    //     } else {
+    //         setNavScroll(false)
+    //     }
+    // }
+    // window.addEventListener('scroll', changeBackground)
 
 
     const [click, setClick] = useState(false)
@@ -38,7 +37,9 @@ function Navbar() {
             <div className='navbar-content'>
                 <div className='container'>
                     <div className='top'>
-                        <div className='logo'>LEADWAY</div>
+                        <div className='logo'>
+                            <img src={logo} alt="" />
+                        </div>
 
                         <div className='nav-info'>
                             <div className='nav-info-content noShow'>

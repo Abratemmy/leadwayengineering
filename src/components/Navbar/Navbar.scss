@@ -85,6 +85,12 @@
             align-items: center;
             width: 100%;
             gap: 30px;
+            .logo{
+                width: 200px;
+                img{
+                    width: 100%;
+                }
+            }
 
             .nav-info{
                 display: flex;
