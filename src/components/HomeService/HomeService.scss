@@ -1,0 +1,89 @@
+.HomeServiceContainer{
+    width: 100%;
+    position: relative;
+    background-image: url("../../Assets/pattern-bg.png");
+    color: #fff;
+
+    .overlay{
+        background-color: #08172e99;
+        padding: 70px 0;
+    }
+    .PageTitleContainer{
+        .subTitle, .title{
+            color: #fff;
+        }
+    }
+    .serviceWrapper{
+        padding-top: 70px;
+    }
+    .service-block{
+        position: relative;
+        padding: 40px 30px;
+        margin-bottom: 20px;
+    }
+    .service-block:before{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #b6b4b4;
+        opacity: .05;
+        -webkit-transition: all linear 0.5s;
+        -moz-transition: all linear 0.5s;
+        -ms-transition: all linear 0.5s;
+        -o-transition: all linear 0.5s;
+        transition: all linear 0.5s;
+    }
+    .service-block:hover:before{
+        width: 20px;
+    }
+    .service-btn .serviceNav{
+        color: #fff;
+        -webkit-transition: all linear 0.5s;
+        -moz-transition: all linear 0.5s;
+        -ms-transition: all linear 0.5s;
+        -o-transition: all linear 0.5s;
+        transition: all linear 0.5s;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        .icon1{
+            font-size: 20px;
+        }
+    }
+    .service-block:hover .service-btn .serviceNav{
+        color: var(--primaryColor)
+    }
+    .service-block{
+        .icon{
+            font-size: 40px;
+            color: var(--primaryColor);
+            padding-bottom: 10px;
+        }
+        .title{
+            color: #fff;
+            padding: 20px 0;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
+            transition: all linear 0.5s;
+            font-family: var(--textFamily);
+        }
+        .text{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            font-family: var(--textFamily);
+            font-size: 14px;
+            color: #fff
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.pagebutton{
+    display: inline-block;
+    width: 170px;
+    height: 45px;
+    padding: 15px;
+    position: relative;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    font-family: var(--textFamily);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+    border-radius: 0;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: inline-flex!important;
+    align-items: center;
+    justify-content: center!important;
+    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+    background-color: var(--primaryColor);
+    backface-visibility: hidden;
+    transform: translateX(0);
+} 
+.pagebutton:after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    background: var(--secondaryColor);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 4px;
+    transition: all .4s ease-in-out;
+}
+.pagebutton:hover.pagebutton:after{
+    width: 100%;
+    color: #fff!important;
+}
+.pagebuttonDark{
+    background-color: var(--secondaryColor);
+}
+.pagebuttonDark:after{
+    background: var(--primaryColor);
+}
+.pagebutton .before{
+    padding-right: 10px!important;
+}
+.pagebutton span.after{
+    padding-left: 10px;
+    display: none;
+}
+.pagebutton span .icon{
+    position: relative;
+    top:-2px;
+    font-size: 20px;
+    transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1), opacity 0.4s cubic-bezier(0.86, 0, 0.07, 1)
+}
+.pagebutton:hover{
+    text-decoration: none;
+    color: var(--primaryColor)!important;
+    .before{
+      display: none;
+    }
+    .after{
+      display: block;
+    }
+}
+.pagebuttonDark:hover{
+    color: var(--secondaryColor)!important
+}

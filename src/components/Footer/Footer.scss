@@ -1,0 +1,72 @@
+.footerContainer{
+    width: 100%;
+    position: relative;
+    background-image: url("../../Assets/pattern-bg.png");
+    color: #fff;
+
+    .overlay{
+        background-color: #08172e99;
+        padding: 70px 0 20px 0px;
+        .cardContent{
+            .title{
+                position: relative;
+                color: #fff;
+                padding-left: 15px;
+                font-size: x-large;
+                font-weight: 600;
+                font-family: var(--textFamily);
+            }
+            .title:before{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 6px;
+                width: 4px;
+                height: 20px;
+                bottom: 0px;
+                background-color: var(--primaryColor);
+                z-index: 1;
+            }
+            .content{
+                padding-top: 15px;
+                font-family: var(--textFamily);
+                .list{
+                    display: flex;
+                    gap:10px;
+                    padding-bottom: 12px;
+                    span{
+                        .icon{
+                            color: var(--primaryColor)
+                        }
+                    }
+                    .footerNav{
+                        text-decoration: none;
+                        color:#a7a7a7;
+                        font-size: 15px;
+                        transition: 0.4s all ease;
+                    }
+                    .footerNav:hover{
+                        color: var(--primaryColor)
+                    }
+
+                    .contactText{
+                        font-size: 15px;
+                        color: #bebcbc;
+                        padding-bottom: 5px;
+                    }
+                }
+            }
+        }
+        
+
+        // copyrightcontainer css
+        .copyrightContainer{
+            margin-top: 70px;
+            line-height: 70px;
+            background-color: var(--secondaryColor);
+            border: 2px solid var(--primaryColor);
+            padding: 20px 50px;
+            clip-path: polygon(2% 0, 100% 0%, 99% 100%, 0% 100%);
+        }
+    }
+}

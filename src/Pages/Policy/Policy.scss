@@ -1,0 +1,72 @@
+.policyContainer{
+    position: relative;
+    width: 100%;
+    padding: 70px 0px;
+    .policytitle{
+        color: var(--blackColor);
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .text{
+        font-size: 14px;
+        padding:10px 0px;
+        color: var(--grayColor);
+        span{
+            padding-left: 10px;
+        }
+        .icon{
+            color: var(--primaryColor);
+            font-size: 18px;
+        }
+    }
+    .HseContainer{
+        padding: 50px 0px 10px;
+        font-family: var(--textFamily);
+        .HseWrapper{
+            width: 100%;
+            background: #eeebeb;
+            height: 240px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            margin-bottom: 20px;
+            .subTitle{
+                font-size: 27px;
+                font-weight: 600;
+                font-family: var(--textFamily);
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            span{
+                width: 50%;
+                border-top: 2px solid var(--primaryColor);
+                height: 2px;
+                display: block;
+                margin: auto;
+            }
+        }
+      
+        
+    }
+    .QualityPolicy{
+        background: #eeebeb;
+        padding: 50px 0px;
+        margin: 40px 0px;
+    }
+
+    // Picture Container
+
+    .Picture{
+        width: 100%;
+        .image{
+            width: 100%;
+            border: 5px solid #eeebeb;
+            margin-bottom: 20px;
+            // padding: 0px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

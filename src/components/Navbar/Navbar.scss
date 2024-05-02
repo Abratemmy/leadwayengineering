@@ -1,0 +1,203 @@
+.Navbar-container{
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 7px 0px;
+        align-items: center;
+        .nav-top{
+            position: relative;
+            left: -150px;
+            width: 70%;
+            height: 40px;
+            .nav-top1{
+                background: var(--primaryColor);
+                height: 70%;
+                position: relative;
+                margin-top: 20px;
+                clip-path: polygon(0 0, 100% 0%, 98% 100%, 0 100%);
+            }
+            .nav-top2{
+                background: #000;
+                height: 70%;
+                position: absolute;
+                top:8px;
+                left:0;
+                width: 99%;
+                clip-path: polygon(0 0, 100% 0%, 98% 100%, 0 100%);
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .nav-top{
+                position: relative;
+                left: -50px;
+                width: 70%;
+                height: 40px;
+            }
+        }
+        .welcome{
+            color:#1f1f1f;
+            font-family: var(--textFamily);
+            padding-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-image: linear-gradient(
+                -225deg,
+                #231557 0%,
+                #44107a 29%,
+                #ff1361 67%,
+                var(--primaryColor) 100%
+            );
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+            text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 2s linear infinite;
+            display: inline-block;
+        }
+        @keyframes textclip {
+            to {
+              background-position: 200% center;
+            }
+          }
+    }
+    
+    // another section starts here
+    .navbar-content{
+        width: 100%;
+        position: relative;
+        padding-top: 10px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            gap: 30px;
+
+            .nav-info{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 15px;
+
+                .nav-info-content{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 10px;
+
+                    .left{
+                        .icon{
+                            font-size: 30px;
+                            color: var(--primaryColor);
+                        }
+                        @media screen and (max-width:900px) {
+                            .icon{
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                    .right{
+                        font-size: 14px;
+                        font-family: var(--textFamily);
+                        .title{
+                            font-weight: 600;
+                            color: var(--blackColor);
+                        }
+                        span{
+                            color: var(--grayColor);
+                            a{
+                                text-decoration: none;
+                                color: var(--grayColor)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 992px) {
+            .top{
+                flex-direction: column;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .top{
+                .nav-info{
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                }
+                .nav-info-content.noShow{
+                    display: none;
+                }
+            }
+        }
+
+
+        // NAvbar section
+        .navbar-navigation{
+            position: absolute;
+            bottom: -45%!important;
+            width: 100%;
+            .navigationBg{
+                height: 70px;
+                background: linear-gradient(120deg, black 15%, var(--primaryColor) 15%);
+                margin-left: 100px;
+            }  
+            .navigationBg {
+                .Navigation{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    color: #fff;
+                    height: 100%;
+                    .nav-menu {
+                        display: flex;
+                        list-style: none;
+                        text-align: center;
+                        align-items: center;
+                        padding-top: 8px;
+                    }
+                    
+                    .nav-links {
+                        color: #fff;
+                        text-decoration: none;
+                        padding: 0rem 1.4rem;
+                        height: 100%;
+                        font-family: var(--textFamily);
+                        font-weight: 600;
+                        font-size: 15px;
+                        transition: 0.4s all ease;
+                    }
+                    .nav-links:hover {
+                        color: #000;
+                    }
+
+                    .nav-item .active {
+                        color: #000;
+                        border-top: 3px solid #000;
+                        padding-top: 17px;
+                    }
+                    .nav-icon {
+                        color: #fff;
+                        font-size: 25px;
+                        cursor: pointer;
+                        font-family: var(--textFamily);
+                    }
+                }
+            }
+        }
+    }
+}

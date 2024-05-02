@@ -1,0 +1,44 @@
+.PageTitleContainer{
+    position: relative;
+    max-width: 650px;
+    .titleTransparent{
+        position: absolute;
+        top: -50px;
+        left: 0;
+        span{
+            font-size: 100px;
+            font-weight: bold;
+            text-transform: uppercase;
+            opacity: .04;
+        }
+        @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px){
+            span {
+                font-size: 70px;
+            }
+        }     
+    }
+    .subTitle{
+        position: relative;
+        color: var(--grayColor);
+        text-transform: uppercase;
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-family: var(--textFamily);
+        font-weight: 600;
+    }
+    .subTitle::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: -5px;
+        width: 100px;
+        height: 2px;
+        background-color: var(--grayColor);
+    }
+    .title{
+        font-family: var(--textFamily);
+        font-weight: 600;
+        color: var(--grayColor);
+        padding-top: 5px;
+    }
+}

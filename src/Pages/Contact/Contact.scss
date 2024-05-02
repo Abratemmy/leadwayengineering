@@ -1,0 +1,118 @@
+.contactContainer{
+    position: relative;
+    padding: 70px 0px;
+    width: 100%;
+
+    .form{
+        width: 100%;
+        padding: 30px 0px;
+        .inputDiv{
+            position: relative;
+            padding-bottom: 15px;
+            label{
+                display: block;
+                color: var(--grayColor);
+                font-family: var(--textFamily);
+                position: relative;
+                top:8px;
+                font-size: 14px;
+            }
+            .input{
+                width: 100%;
+                background: #f7f7f7;
+                height: 50px;
+                border: 1px solid #f7f7f7;
+                font-size: 15px;
+                outline: none;
+                padding: 5px 10px;
+                color: var(--grayColor)
+            }
+            .message{
+                width: 100%;
+                background: #f7f7f7;
+                border: 1px solid #f7f7f7;
+                font-size: 15px;
+                outline: none;
+                padding: 5px 10px;
+                color: var(--grayColor)
+            }
+            .pagebutton{
+                border: none;
+            }
+        }
+    }
+
+    .getInTouch{
+        padding-left: 50px;
+        .title{
+            font-family: var(--textFamily);
+            color: var(--blackColor);
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .subtitle{
+            color: var(--grayColor);
+            font-size: 15px; 
+            padding-bottom: 30px;
+        }
+        .inner-block{
+            display: flex;
+            display: inline-flex;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+            margin-bottom: 40px;
+            .icon-box{
+                position: relative;
+                width: 60px!important;
+                height: 60px!important;
+                text-align: center;
+                border-radius: 50%;
+                background-color: #eeeeee;
+                color: var(--primaryColor);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: .3s ease;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                .icon{
+                    font-size: 20px;
+                    z-index: 99;
+                    transition: .3s ease;
+                }
+            }
+            .icon-box:before{
+                position: absolute;
+                content: '';
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                background-color: var(--primaryColor);
+                transform: scale(0);
+                transition: .7s ease;
+                z-index: 1;
+            }
+            .icon-box:hover:before{
+                transform: scale(1);
+            }
+            .icon-box:hover .icon{
+                color: #fff!important;
+            }
+            .content{
+                font-family: var(--textFamily);
+                color: var(--primaryColor);
+                font-size: 14px;
+                a{
+                    color: var(--primaryColor);
+                    text-decoration: none;
+                }
+                .text{
+                    color: var(--grayColor)
+                }
+            }
+        }
+    }
+}
