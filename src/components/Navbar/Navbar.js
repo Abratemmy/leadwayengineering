@@ -7,14 +7,14 @@ import { NavLink } from 'react-router-dom';
 import { FiAlignRight, FiXCircle } from "react-icons/fi";
 
 function Navbar() {
-    const [navbar, setNavbar] = useState(false);
+    const [navScroll, setNavScroll] = useState(false);
     const changeBackground = () => {
         // the 130 below means where you want the background to change when scroll
         // it is advisable to put the background at the height of the navbar
         if (window.scrollY >= 130) {
-            setNavbar(true);
+            setNavScroll(true);
         } else {
-            setNavbar(false)
+            setNavScroll(false)
         }
     }
     window.addEventListener('scroll', changeBackground)
