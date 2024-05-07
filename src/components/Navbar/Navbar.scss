@@ -2,7 +2,6 @@
     width: 100%;
     position: relative;
     background-color: #fff;
-
     .header-top{
         display: flex;
         justify-content: space-between;
@@ -21,7 +20,7 @@
                 clip-path: polygon(0 0, 100% 0%, 98% 100%, 0 100%);
             }
             .nav-top2{
-                background: #000;
+                background: var(--secondaryColor);
                 height: 70%;
                 position: absolute;
                 top:8px;
@@ -47,9 +46,9 @@
             text-transform: uppercase;
             background-image: linear-gradient(
                 -225deg,
-                #231557 0%,
-                #44107a 29%,
-                #ff1361 67%,
+                var(--primaryColor) 0%,
+                #3D7550 29%,
+                #bb853e 67%,
                 var(--primaryColor) 100%
             );
             background-size: auto auto;
@@ -57,7 +56,6 @@
             background-size: 200% auto;
             color: #fff;
             background-clip: text;
-            text-fill-color: transparent;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: textclip 2s linear infinite;
@@ -71,139 +69,285 @@
     }
     
     // another section starts here
-    .navbar-content{
+    
+    .header-middle{
         width: 100%;
         position: relative;
-        padding-top: 10px;
-        height: 130px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .top{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-            gap: 30px;
-            .logo{
-                width: 200px;
-                img{
-                    width: 100%;
-                }
-            }
-
-            .nav-info{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                gap: 15px;
-
-                .nav-info-content{
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    gap: 10px;
-
-                    .left{
-                        .icon{
-                            font-size: 30px;
-                            color: var(--primaryColor);
-                        }
-                        @media screen and (max-width:900px) {
-                            .icon{
-                                font-size: 20px;
-                            }
-                        }
-                    }
-                    .right{
-                        font-size: 14px;
-                        font-family: var(--textFamily);
-                        .title{
-                            font-weight: 600;
-                            color: var(--blackColor);
-                        }
-                        span{
-                            color: var(--grayColor);
-                            a{
-                                text-decoration: none;
-                                color: var(--grayColor)
-                            }
-                        }
-                    }
-                }
+        height: 120px;
+        padding-top: 30px;
+        .logo-wrapper{
+            img{
+                width: 100%;
             }
         }
-        @media screen and (max-width: 992px) {
-            .top{
-                flex-direction: column;
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-right: 20px;
+            .icon{
+                font-size: 24px;
+                color: var(--secondaryColor);
+                font-weight: 600;
             }
-        }
-        @media screen and (max-width: 500px) {
-            .top{
-                .nav-info{
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: flex-start;
+            .header-info{
+                padding-left: 10px;
+                font-size: 14px;
+                font-family: var(--textFamily);
+                h5{
+                    font-weight: 600;
+                    color: var(--blackColor);
                 }
-                .nav-info-content.noShow{
-                    display: none;
-                }
-            }
-        }
-
-
-        // NAvbar section
-        .navbar-navigation{
-            position: absolute;
-            bottom: -45%!important;
-            width: 100%;
-            .navigationBg{
-                height: 70px;
-                background: linear-gradient(120deg, black 15%, var(--primaryColor) 15%);
-                margin-left: 100px;
-            }  
-            .navigationBg {
-                .Navigation{
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    color: #fff;
-                    height: 100%;
-                    .nav-menu {
-                        display: flex;
-                        list-style: none;
-                        text-align: center;
-                        align-items: center;
-                        padding-top: 8px;
-                    }
-                    
-                    .nav-links {
-                        color: #fff;
+                span{
+                    color: var(--grayColor);
+                    a{
                         text-decoration: none;
-                        padding: 0rem 1.4rem;
-                        height: 100%;
-                        font-family: var(--textFamily);
-                        font-weight: 600;
+                        color: var(--grayColor)
+                    }
+                }
+            }
+        }
+        
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+           .logo-wrapper {
+                display: none;
+            }
+            ul{
+                .header-info{
+                    h5{
                         font-size: 15px;
-                        transition: 0.4s all ease;
-                    }
-                    .nav-links:hover {
-                        color: #000;
-                    }
-
-                    .nav-item .active {
-                        color: #000;
-                        border-top: 3px solid #000;
-                        padding-top: 17px;
-                    }
-                    .nav-icon {
-                        color: #fff;
-                        font-size: 25px;
-                        cursor: pointer;
-                        font-family: var(--textFamily);
                     }
                 }
             }
         }
     }
+    @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
+        .header-middle {
+            display: none;
+        }
+    }
+  
+    // NAvbar section
+    .navbar-navigation{
+        width: 100%;
+        position: relative;
+        padding-left: 300px;
+        margin-bottom: -30px;
+        z-index: 10;
+        .NavContainer{
+            clip-path: polygon(30px 0, 100% 0%, 100% 100%, 0% 100%);
+            background: var(--primaryColor);
+            position: relative;
+            height: 80px;
+            line-height: 80px;
+            width: 100%;
+            padding: 0px 30px;
+        }
+        .Navigation{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            height: 100%;
+            width: 100%;
+           
+            .nav-menu {
+                display: flex;
+                list-style: none;
+                text-align: center;
+                align-items: center;
+                width: 100%;
+            }
+            
+            .nav-links {
+                color: #fff;
+                text-decoration: none;
+                padding: 0rem 2.4rem;
+                height: 100%;
+                font-family: var(--textFamily);
+                font-weight: 600;
+                font-size: 15px;
+                transition: 0.4s all ease;
+            }
+            .nav-links:hover {
+                color: var(--secondaryColor);
+            }
+
+            .nav-item .active {
+                color: var(--secondaryColor);
+                border-top: 3px solid var(--secondaryColor);
+                padding-top: 20px;
+            }
+            .nav-icon {
+              
+                display: none;
+            }
+            .nav-logo{
+                display: none;
+            }
+        }
+    }
+    .scrolled {
+        position: fixed;
+        background: #fff;
+        box-shadow: 0px 15px 10px -15px var(--greenColor);
+        top: 0px !important;
+        color: #fff;
+        padding-left: 0;
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        animation-name: fadeInDown;
+        animation-delay: 0.1s;
+        animation-timing-function: ease-in-out;
+    }
+
+    @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+        .navbar-navigation {
+            padding-left: 0;
+            .Navigation{
+                .nav-icon{
+                    display: block;
+                    color: #fff;
+                    font-size: 25px;
+                    cursor: pointer;
+                    line-height: 40px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: var(--textFamily);
+                    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+                    background-color: var(--secondaryColor);
+                    backface-visibility: hidden;
+                    transform: translateX(0);
+                    -moz-transition: all 0.3s ease-in-out;
+                    -ms-transition: all 0.3s ease-in-out;
+                    -o-transition: all 0.3s ease-in-out;
+                    transition: all 0.3s ease-in-out;
+                    -webkit-animation-fill-mode: both;
+                    animation-fill-mode: both;
+                    animation-name: fadeInUp;
+                    animation-delay: 0.3s;
+                    animation-timing-function: ease-in-out;
+                }
+                .nav-logo{
+                    display: block;
+                    width: 200px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .nav-menu{
+                    display: none;
+                }
+                // .nav-menu{
+                //     display: flex;
+                //     flex-direction: column;
+                //     width: 100%;
+                //     border-top: 1px solid #fff;
+                //     position: absolute;
+                //     top: 90px;
+                //     left: -210%;
+                //     opacity: 1;
+                //     transition: all 0.5s ease;
+                //     gap: 0px;
+                //     height: 100%;
+                //     padding: 10px 30px !important;
+                // }
+                // .nav-menu.active {
+                //     background: #000;
+                //     left: 0px;
+                //     opacity: 1;
+                //     transition: all 0.5s ease;
+                //     z-index: 1233232;
+                //     text-align: left;
+                //     padding: 0px 30px 10px 30px;
+                //     box-shadow: 5px 0px 5px 5px #888888;
+                //     height: 100vh;
+                // }
+            }
+        }
+    }
+    
+
+    // css for toggle container for small device
+    .toggleContainer{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #222222;
+        z-index: 999;
+        overflow-y: auto;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding: 4% 10%;
+        // webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        animation-name: fadeInUp;
+        animation-delay: 0.3s;
+        animation-timing-function: ease-in-out;
+        
+        .toggleWrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            .header{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                button{
+                    background: transparent;
+                    border: none;
+                    color: #fff;
+                    font-size: 28px;
+                }
+                .pageSubTHeading{
+                    color: #fff;
+                    padding: 10px;
+                    text-transform: uppercase;
+                    font-family: var(--textFamily);
+                    font-size: x-large;
+                }
+            }
+            .nav-menu{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: flex-start;
+                justify-content: flex-start;
+                list-style: none;
+                padding: 0;
+                margin-top: 40px;
+                li{
+                    border-top: 1px solid rgba(255, 255, 255, 0.03);
+                    width: 100%;
+                }
+                .nav-links{
+                    line-height: 60px;
+                    color: #fff;
+                    font-family: var(--textFamily);
+                    font-size: 15px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    padding-left: 10px;
+                }
+                .nav-item .active {
+                    color: var(--primaryColor);
+                }
+            }
+        }
+    }
+    
 }

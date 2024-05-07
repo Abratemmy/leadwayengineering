@@ -1,6 +1,6 @@
 :root{
-  --primaryColor: #CA282D;
-  --secondaryColor: #08172e;
+  --primaryColor: #F55B14;
+  --secondaryColor: #3D7550;
   --textFamily: 'Poppins', sans-serif;
   --text2Family: "Antonio", sans-serif;
   --grayColor: #7c7474;
@@ -14,6 +14,9 @@
   /* -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; */
 }
+.container{
+  max-width: 1200px;
+}
 
 .buttonLink{
   background-color: var(--primaryColor);
@@ -23,7 +26,7 @@
   display: inline-block;
   width: 170px;
   height: 45px;
-  padding: 15px;
+  padding: 20px;
   position: relative;
   color: #ffffff !important;
   font-size: 14px !important;

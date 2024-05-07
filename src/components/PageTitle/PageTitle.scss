@@ -9,7 +9,8 @@
             font-size: 100px;
             font-weight: bold;
             text-transform: uppercase;
-            opacity: .04;
+            opacity: .06;
+            color: var(--secondaryColor)
         }
         @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px){
             span {
@@ -19,12 +20,13 @@
     }
     .subTitle{
         position: relative;
-        color: var(--grayColor);
+        color: var(--secondaryColor);
         text-transform: uppercase;
         margin-bottom: 25px;
         padding-top: 25px;
         font-family: var(--textFamily);
         font-weight: 600;
+        font-size: x-large;
     }
     .subTitle::before {
         position: absolute;
@@ -33,7 +35,7 @@
         bottom: -5px;
         width: 100px;
         height: 2px;
-        background-color: var(--grayColor);
+        background-color: var(--primaryColor);
     }
     .title{
         font-family: var(--textFamily);

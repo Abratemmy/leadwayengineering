@@ -35,17 +35,17 @@ function Footer() {
 
                                     <div className='list'>
                                         <span><CgEditBlackPoint className='icon' /></span>
-                                        <NavLink to="/" className="footerNav">Our Services</NavLink>
+                                        <NavLink to="/services" className="footerNav">Our Services</NavLink>
                                     </div>
 
                                     <div className='list'>
                                         <span><CgEditBlackPoint className='icon' /></span>
-                                        <NavLink to="/" className="footerNav">Contact Us</NavLink>
+                                        <NavLink to="/contact" className="footerNav">Contact Us</NavLink>
                                     </div>
 
                                     <div className='list'>
                                         <span><CgEditBlackPoint className='icon' /></span>
-                                        <NavLink to="/" className="footerNav">Policy</NavLink>
+                                        <NavLink to="/quality-policy" className="footerNav">Policy</NavLink>
                                     </div>
                                 </div>
                             </div>
