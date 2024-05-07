@@ -43,7 +43,7 @@ function HomeAbout() {
                                             <i class="fui-gas"></i>
                                         </div>
                                         <div class="content">
-                                            <h4 class="title">World Experts </h4>
+                                            <h4 class="title">World Class Expertise</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@ function HomeAbout() {
                                             <i class="flaticon-carpenter"></i>
                                         </div>
                                         <div class="content">
-                                            <h4 class="title">Performanace & Safety </h4>
+                                            <h4 class="title">Self Projects Delivery </h4>
                                         </div>
                                     </div>
                                 </div>

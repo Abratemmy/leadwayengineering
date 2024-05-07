@@ -31,10 +31,10 @@ function HomeBanner() {
                         <div className="cover">
                             <div className="container">
                                 <div className="header-content">
-                                    <h3>Oil Service Company
+                                    <h3>Oil & Gas Technical Services Company
                                         <span className='border-shape'></span>
                                     </h3>
-                                    <h1>Best Energy Solution Provider</h1>
+                                    <h1>Best Technical Solution Provider</h1>
                                     <div className='buttongroup'>
                                         <div><NavLink to="/about" className="pagebutton">
                                             <span className='btn-arrow before'>
@@ -68,7 +68,7 @@ function HomeBanner() {
                         <div className="cover">
                             <div className="container">
                                 <div className="header-content">
-                                    <h3>Oil Service Company
+                                    <h3>Oil & Gas Technical Services Company
                                         <span className='border-shape'></span>
                                     </h3>
                                     <h1>Providing innovative solutions</h1>
@@ -105,10 +105,10 @@ function HomeBanner() {
                         <div className="cover">
                             <div className="container">
                                 <div className="header-content">
-                                    <h3>Oil Service Company
+                                    <h3>Oil & Gas Technical Services Company
                                         <span className='border-shape'></span>
                                     </h3>
-                                    <h1>Energy for a sustainable tomorrow</h1>
+                                    <h1>Technologies for a sustainable tomorrow</h1>
                                     <div className='buttongroup'>
                                         <div><NavLink to="/about" className="pagebutton">
                                             <span className='btn-arrow before'>

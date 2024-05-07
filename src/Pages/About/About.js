@@ -47,7 +47,7 @@ function About() {
                                     ensure that non-operating cash outflows are assessed. The three combination
                                     of Cs being our focal point are customers, competition and change; and
                                     these have ultimately created a new world for our business which is a
-                                    balanced scorecard, like the executive dashboard, is an essential tool the
+                                    balanced score card, like the executive dashboard, is an essential tool. The
                                     new golden rule gives enormous power to those individuals and units.
                                 </div>
 
@@ -69,7 +69,7 @@ function About() {
                                                     <i class="fui-gas"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title">World Experts </h4>
+                                                    <h4 class="title">World Class Expertise </h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -79,7 +79,7 @@ function About() {
                                                     <i class="flaticon-carpenter"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title">Performanace & Safety </h4>
+                                                    <h4 class="title">Self Projects Delivery </h4>
                                                 </div>
                                             </div>
                                         </div>

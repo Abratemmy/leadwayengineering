@@ -88,7 +88,7 @@ function Contact() {
                                     <div className='content'>
                                         <div className='text'>Address:
                                             <span>
-                                                Road O, London Estate Phase 2, Umiuebeulu Etche
+                                                Block 4, Road O, London Estate Phase 2, Umiuebeulu Etche
                                                 LGA, Rivers State.
                                             </span>
                                         </div>

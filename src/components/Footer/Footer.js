@@ -82,7 +82,7 @@ function Footer() {
                                 <div className='content'>
                                     <div className='list'>
                                         <span><MdLocationOn className='icon' /></span>
-                                        <div className="contactText">Road O, London Estate Phase 2, Umiuebeulu Etche
+                                        <div className="contactText">Block 4, Road O, London Estate Phase 2, Umiuebeulu Etche
                                             LGA, Rivers State.
                                         </div>
                                     </div>
@@ -97,7 +97,7 @@ function Footer() {
                                     <div className='list'>
                                         <span><BiSolidEnvelope className='icon' /></span>
                                         <div className="contactText">
-                                            <a href="mailTo:info@leadwayengineering.com">leadwayengineering@gmail.com</a>
+                                            <a href="mailTo:info@leadwayengineering.com">info@leadwayengineering.com</a>
                                         </div>
                                     </div>
                                 </div>
