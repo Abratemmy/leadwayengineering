@@ -6,7 +6,7 @@ import './Navbar.scss'
 import { NavLink } from 'react-router-dom';
 import { FiAlignRight } from "react-icons/fi";
 import logo from '../../Assets/logo.jpeg';
-import logo2 from '../../Assets/logo2.png';
+// import logo2 from '../../Assets/logo2.png';
 import { IoMdClose } from "react-icons/io";
 
 function Navbar() {
