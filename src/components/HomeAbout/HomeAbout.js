@@ -19,7 +19,7 @@ function HomeAbout() {
                             span="About us"
                         >
                             <div className='aboutText'>
-                                Leadway Engineering Technologies Limited is an indigenous Oil Service
+                                Leadway Engineering Technologies Limited is an indigenous Oil & Gas Service
                                 Company created, under the Laws of Federal Republic of Nigeria, to proffer
                                 high-end Technical Solutions to Nigeria Oil and Gas Industry.
                             </div>

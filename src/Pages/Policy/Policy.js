@@ -59,8 +59,8 @@ function Policy() {
                                 <div className='text'>
                                     <CgEditBlackPoint className='icon' />
                                     <span>
-                                        We have strong QHSE policies and this is an integral part of our day-today
-                                        work.
+                                        We have strong QHSE policies and this is an integral part of our day to day work.
+
                                     </span>
                                 </div>
                             </div>

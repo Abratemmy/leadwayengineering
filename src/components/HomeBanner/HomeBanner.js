@@ -34,7 +34,7 @@ function HomeBanner() {
                                     <h3>Oil & Gas Technical Services Company
                                         <span className='border-shape'></span>
                                     </h3>
-                                    <h1>Best Technical Solution Provider</h1>
+                                    <h1>Best Engineering Solution Provider</h1>
                                     <div className='buttongroup'>
                                         <div><NavLink to="/about" className="pagebutton">
                                             <span className='btn-arrow before'>

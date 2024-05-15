@@ -8,6 +8,9 @@
         background-color: #3d7550a4;
         padding: 70px 0;
     }
+    .overlay2{
+        background-color: #7c7474b0;
+    }
     .PageTitleContainer{
         .subTitle, .title{
             color: #fff;
@@ -66,13 +69,15 @@
         }
         .title{
             color: #fff;
-            padding: 20px 0;
+            height: 80px;
+            // padding: 20px 0;
             -webkit-transition: all linear 0.5s;
             -moz-transition: all linear 0.5s;
             -ms-transition: all linear 0.5s;
             -o-transition: all linear 0.5s;
             transition: all linear 0.5s;
             font-family: var(--textFamily);
+            text-transform: capitalize;
         }
         .text{
             overflow: hidden;

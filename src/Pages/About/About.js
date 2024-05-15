@@ -25,7 +25,7 @@ function About() {
                                 />
 
                                 <div className='text'>
-                                    Leadway Engineering (LE) Technologies Limited  is an indigenous Oil Service
+                                    Leadway Engineering (LE) Technologies Limited  is an indigenous Oil and Gas Services
                                     Company created, under the Laws of Federal Republic of Nigeria, to proffer
                                     high-end Technical Solutions to Nigeria Oil and Gas Industry.
                                 </div>
@@ -199,7 +199,7 @@ function About() {
                         </div>
                         <div className="text">
                             <span><TbListDetails className='icon' /></span>
-                            We stock, sell, supplies and offer technical advice on all sizes and grades of
+                            We stock, sell, supply and offer technical advice on all sizes and grades of
                             casings and tubing (OCTG) and Line Pipes.
                         </div>
 

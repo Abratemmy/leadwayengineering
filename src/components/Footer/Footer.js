@@ -4,7 +4,7 @@ import { CgEditBlackPoint } from "react-icons/cg";
 import { NavLink } from 'react-router-dom';
 import { MdLocationOn, MdPhone } from "react-icons/md";
 import { BiSolidEnvelope } from "react-icons/bi";
-
+import logo from "../../Assets/logo2.png"
 function Footer() {
     return (
         <div className='footerContainer'>
@@ -14,8 +14,14 @@ function Footer() {
                         <div className='col-lg-3 col-md-6 col-sm-12'>
                             <div className='cardContent'>
                                 <div className='title'>About Company</div>
-                                <div className='logo'></div>
-                                <div className='text'></div>
+                                <div className='logo'>
+                                    <img src={logo} alt="" />
+                                </div>
+                                <div className='text'>
+                                    Leadway Engineering Technologies Limited is an indigenous Oil & Gas Services
+                                    Company created, under the Laws of Federal Republic of Nigeria, to proffer
+                                    high-end Technical Solutions to Nigeria Oil and Gas Industry.
+                                </div>
                             </div>
                         </div>
 
@@ -57,7 +63,7 @@ function Footer() {
                                 <div className='content'>
                                     <div className='list'>
                                         <span><CgEditBlackPoint className='icon' /></span>
-                                        <NavLink to="/" className="footerNav">Instrumentation & control engineering</NavLink>
+                                        <NavLink to="/" className="footerNav">Instrumentation & control </NavLink>
                                     </div>
                                     <div className='list'>
                                         <span><CgEditBlackPoint className='icon' /></span>
@@ -82,7 +88,7 @@ function Footer() {
                                 <div className='content'>
                                     <div className='list'>
                                         <span><MdLocationOn className='icon' /></span>
-                                        <div className="contactText">Block 4, Road O, London Estate Phase 2, Umiuebeulu Etche
+                                        <div className="contactText">Block 4, Road O, London Estate Phase 2, Umuebulu Etche
                                             LGA, Rivers State.
                                         </div>
                                     </div>

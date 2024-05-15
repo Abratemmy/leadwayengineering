@@ -11,7 +11,9 @@ function Home() {
         <div>
             <HomeBanner />
             <HomeAbout />
-            <HomeService />
+            <HomeService
+                page='HomePage'
+            />
             <HomeWork />
 
             <div className='connectToContact'>
@@ -32,25 +34,19 @@ function Home() {
             <div className='imageDisplay'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-3 col-md-6'>
+                        <div className='col-lg-4 col-md-6'>
                             <div className='image'>
                                 <img src="https://res.cloudinary.com/hayteetech/image/upload/v1714653929/LeadwayEngineering/eng3_mftllh.jpg" alt="" />
                             </div>
                         </div>
 
-                        <div className='col-lg-3 col-md-6'>
+                        <div className='col-lg-4 col-md-6'>
                             <div className='image'>
                                 <img src="https://res.cloudinary.com/hayteetech/image/upload/v1714653928/LeadwayEngineering/eng1_vpotyi.jpg" alt="" />
                             </div>
                         </div>
 
-                        <div className='col-lg-3 col-md-6'>
-                            <div className='image'>
-                                <img src="https://res.cloudinary.com/hayteetech/image/upload/v1714653924/LeadwayEngineering/eng2_t9edlp.jpg" alt="" />
-                            </div>
-                        </div>
-
-                        <div className='col-lg-3 col-md-6'>
+                        <div className='col-lg-4 col-md-6'>
                             <div className='image'>
                                 <img src={policy2} alt="" />
                             </div>

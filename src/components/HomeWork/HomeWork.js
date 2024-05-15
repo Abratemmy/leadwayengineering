@@ -36,7 +36,7 @@ function HomeWork() {
                             <div className='col-lg-6 col-sm-6'>
                                 <div className='works-block'>
                                     <span className="works-subtitle">.02</span>
-                                    <p className="text">We ensure that each task is designed, risk assessed, executed and completed.</p>
+                                    <p className="text">We ensure that each task is designed, risk assessed, executed and completed safely.</p>
                                 </div>
                             </div>
                         </div>
