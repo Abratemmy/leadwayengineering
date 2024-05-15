@@ -1,7 +1,7 @@
 import React from 'react'
 import OtherPagesBg from '../../components/OtherPages/OtherPagesBg'
 import PageTitle from '../../components/PageTitle/PageTitle'
-import { FaTint } from "react-icons/fa";
+// import { FaTint } from "react-icons/fa";
 
 function Training() {
     return (
