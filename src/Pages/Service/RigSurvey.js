@@ -13,7 +13,7 @@ function RigSurvey() {
     return (
         <div>
             <OtherPagesBg
-                title="Rig Survey/Facility Inspection"
+                title="Rig Survey"
             />
 
             <div className='ServicesMain'>

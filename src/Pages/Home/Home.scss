@@ -38,12 +38,21 @@
         z-index: 10;
         padding-bottom: 20px;
         font-weight: 600;
+        align-items: center;
+        text-align: center;
+    }
+    @media screen and (max-width: 450px) {
+        .title{
+            font-size: large;
+        }
     }
     p{
         font-size: 14px;
         color:#fff;
         z-index: 10;
         padding-bottom: 20px;
+        align-items: center;
+        text-align: center;
     }
     .pagebutton{
         z-index: 10;

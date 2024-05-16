@@ -22,7 +22,7 @@ function Home() {
                     <div className='content'>
                         <div className='subTitle'>Connect with us</div>
                         <div className='title'>Leadway Engineering Technologies is ready to connect with you</div>
-                        <p>Block 4, Road O, London Estate Phase 2, Umiuebeulu Etche LGA, Rivers State</p>
+                        <p>Block 4, Road O, London Estate Phase 2, Umuebulu Etche LGA, Rivers State</p>
                         <PageButton
                             goToNav="contact"
                             name="Contact us"

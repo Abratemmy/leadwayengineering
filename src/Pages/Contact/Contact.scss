@@ -115,4 +115,16 @@
             }
         }
     }
+    @media screen and (max-width: 800px) {
+        .getInTouch{
+            padding-left: 0;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .getInTouch{
+            .inner-block{
+                gap: 15px
+            }
+        }
+    }
 }

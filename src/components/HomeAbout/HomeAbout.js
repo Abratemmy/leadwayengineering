@@ -12,7 +12,7 @@ function HomeAbout() {
         <div className='HomeAboutContainer'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-lg-7 col-md-12 col-12'>
+                    <div className='col-lg-7 col-md-12 col-12' style={{ paddingBottom: '30px' }}>
                         <PageTitle
                             title="We are no. 01 in providing high-end Technical Solutions to Nigeria Oil and Gas Industry"
                             subTitle="About us"
@@ -53,7 +53,7 @@ function HomeAbout() {
                                             <i class="flaticon-carpenter"></i>
                                         </div>
                                         <div class="content">
-                                            <h4 class="title">Self Projects Delivery </h4>
+                                            <h4 class="title">Safe Projects Delivery </h4>
                                         </div>
                                     </div>
                                 </div>

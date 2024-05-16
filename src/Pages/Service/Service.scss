@@ -91,6 +91,13 @@
                 }
             }
         }
+        @media screen and (max-width:600px) {
+            .image2{
+              
+                bottom: 80px;
+                right:-20px;
+            }
+        }
     }
     .card{
         background: #eeebeb;

@@ -79,7 +79,7 @@ function About() {
                                                     <i class="flaticon-carpenter"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title">Self Projects Delivery </h4>
+                                                    <h4 class="title">Safe Projects Delivery </h4>
                                                 </div>
                                             </div>
                                         </div>
