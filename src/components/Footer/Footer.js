@@ -63,21 +63,25 @@ function Footer() {
                                 <div className='content'>
                                     <div className='list'>
                                         <span><CgEditBlackPoint className='icon' /></span>
-                                        <NavLink to="/" className="footerNav">Instrumentation & control </NavLink>
+                                        <NavLink to="/services/Rig-survey/facility-inspection" className="footerNav">Rig survey/facility inspection </NavLink>
                                     </div>
                                     <div className='list'>
                                         <span><CgEditBlackPoint className='icon' /></span>
-                                        <NavLink to="/" className="footerNav">Rig survey/facility inspection</NavLink>
-                                    </div>
-
-                                    <div className='list'>
-                                        <span><CgEditBlackPoint className='icon' /></span>
-                                        <NavLink to="/" className="footerNav">Lifting Equipment & Inspection Services</NavLink>
+                                        <NavLink to="/services/operation-&-maintenance-support" className="footerNav">Operation & Maintenance Support</NavLink>
                                     </div>
 
                                     <div className='list'>
                                         <span><CgEditBlackPoint className='icon' /></span>
-                                        <NavLink to="/" className="footerNav">Electrical repairs & installations</NavLink>
+                                        <NavLink to="/services/Lifting-Inspection" className="footerNav">Lifting Equipment & Inspection Services</NavLink>
+                                    </div>
+
+                                    <div className='list'>
+                                        <span><CgEditBlackPoint className='icon' /></span>
+                                        <NavLink to="/services/Non-destructive-testing-&-evaluation" className="footerNav">Non Destructive testing & evaluation</NavLink>
+                                    </div>
+                                    <div className='list'>
+                                        <span><CgEditBlackPoint className='icon' /></span>
+                                        <NavLink to="/services/Integrity-test/certifications" className="footerNav">Integrity Test</NavLink>
                                     </div>
                                 </div>
                             </div>

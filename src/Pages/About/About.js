@@ -154,7 +154,7 @@ function About() {
                     <div className='ClientBenefit'>
                         <PageTitle
                             title="Leadway Engineering Technologies Limited Dedication to our Client"
-                            subTitle="Our Client Benefits"
+                            subTitle="Our Clients' Benefits"
                             span="benefits"
                         />
 

@@ -17,6 +17,14 @@ import Manpower from '../Pages/Service/Manpower';
 import Equipmentleasing from '../Pages/Service/Equipmentleasing';
 import Training from '../Pages/Service/Training';
 import TorgueOperation from '../Pages/Service/TorgueOperation';
+import QualityPolicy from '../Pages/Policy/QualityPolicy';
+import DrugAlcoholPolicy from '../Pages/Policy/DrugAlcoholPolicy';
+import EnvironmentalPolicy from '../Pages/Policy/EnvironmentalPolicy';
+import WasteManagement from '../Pages/Policy/WasteManagement';
+import OccupationalPolicy from '../Pages/Policy/OccupationalPolicy';
+import RecruitmentPolicy from '../Pages/Policy/RecruitmentPolicy';
+import LocalContentPolicy from '../Pages/Policy/LocalContentPolicy';
+import AntiBeberyPolicy from '../Pages/Policy/AntiBeberyPolicy';
 
 const Router = () => {
 
@@ -26,6 +34,18 @@ const Router = () => {
             <Route exact path="/about" element={<About />} />
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/quality-policy" element={<Policy />} />
+            <Route exact path="/quality_policy_statement" element={<QualityPolicy />} />
+            <Route exact path="/drug_alcohol_policy" element={<DrugAlcoholPolicy />} />
+            <Route exact path="/environmental_policy" element={<EnvironmentalPolicy />} />
+            <Route exact path="/waste_management_policy" element={<WasteManagement />} />
+            <Route exact path="/occupational_policy" element={<OccupationalPolicy />} />
+            <Route exact path="/recruitment_policy" element={<RecruitmentPolicy />} />
+            <Route exact path='/local_content_policy' element={<LocalContentPolicy />} />
+            <Route exact path="/anti_bribery_policy" element={<AntiBeberyPolicy />} />
+
+
+
+            {/* services */}
             <Route exact path="/services" element={<MainService />} />
             <Route exact path="/services/Rig-survey/facility-inspection" element={<RigSurvey />} />
             <Route exact path="/services/Lifting-Inspection" element={<LiftingEquipment />} />

@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { MdOutlineCall, MdOutlineMailOutline } from "react-icons/md";
+import { IoIosArrowDown } from "react-icons/io";
 import { BsClock } from "react-icons/bs";
 import './Navbar.scss'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FiAlignRight } from "react-icons/fi";
 import logo from '../../Assets/logo.jpeg';
 // import logo2 from '../../Assets/logo2.png';
 import { IoMdClose } from "react-icons/io";
+import smallLogo from '../../Assets/smallLogo.png'
 
 function Navbar() {
 
@@ -21,11 +23,14 @@ function Navbar() {
     }
     window.addEventListener('scroll', changeBackground)
 
-
-    const [click, setClick] = useState(false)
-    const handleClick = () => setClick(!click);
-
     const [openToggle, setOpenToggle] = useState(false)
+
+    const [openDropdown, setOpenDropdown] = useState(false)
+
+    const handleDropdown = () => {
+        setOpenToggle(false);
+        setOpenDropdown(false)
+    }
 
     return (
         <div className='Navbar-container'>
@@ -54,7 +59,7 @@ function Navbar() {
                                     <li><MdOutlineCall className='icon' /></li>
                                     <li>
                                         <div class="header-info">
-                                            <h5>Emergency Call</h5>
+                                            <h6>Emergency Call</h6>
                                             <span>+234 816 086 1494</span>
                                         </div>
                                     </li>
@@ -63,7 +68,7 @@ function Navbar() {
                                     <li><MdOutlineMailOutline className='icon' /></li>
                                     <li>
                                         <div class="header-info">
-                                            <h5>Send Us Email</h5>
+                                            <h6>Send Us Email</h6>
                                             <span>info@leadwayengineering.com</span>
                                         </div>
                                     </li>
@@ -72,7 +77,7 @@ function Navbar() {
                                     <li><BsClock className='icon' /></li>
                                     <li>
                                         <div class="header-info">
-                                            <h5>Working time</h5>
+                                            <h6>Working time</h6>
                                             <span>Monday- Friday: 8:00 - 17:00</span>
                                         </div>
                                     </li>
@@ -117,26 +122,52 @@ function Navbar() {
                                     <img src={logo} alt="" />
                                 </NavLink>
                             </div>
+                            <div>
+                                <NavLink to="/" className="smallNav-logo">
+                                    <img src={smallLogo} alt="" />
+                                </NavLink>
+                            </div>
 
-                            <ul className={click ? "nav-menu active" : "nav-menu"}>
+                            <ul className="nav-menu">
+
                                 <li className="nav-item">
-                                    <NavLink to="/" exact activeClassName="active" className="nav-links" onClick={handleClick}>Home</NavLink>
+                                    <NavLink to="/" exact activeClassName="active" className="nav-links">Home</NavLink>
                                 </li>
 
                                 <li className="nav-item">
-                                    <NavLink to="/about" exact activeClassName="active" className="nav-links" onClick={handleClick}>About</NavLink>
+                                    <NavLink to="/about" exact activeClassName="active" className="nav-links">About</NavLink>
                                 </li>
 
                                 <li className="nav-item">
-                                    <NavLink to="/services" exact activeClassName="active" className="nav-links" onClick={handleClick}>Services</NavLink>
+                                    <NavLink to="/services" exact activeClassName="active" className="nav-links">Services</NavLink>
                                 </li>
 
                                 <li className="nav-item">
-                                    <NavLink to="/quality-policy" exact activeClassName="active" className="nav-links" onClick={handleClick}>Policy</NavLink>
+                                    <Link to="#" activeClassName="active" className="nav-links" aria-current="page"
+                                    >Policies
+                                        <span><IoIosArrowDown className='icon' /></span>
+                                    </Link>
+
+                                    <div className="navDropdown" aria-labelledby="menu-200">
+                                        <div className='left'>
+                                            <NavLink to="/quality_policy_statement" className='dropdown-Nav'>Quality Policy Statement</NavLink>
+                                            <NavLink to="/drug_alcohol_policy" className='dropdown-Nav'>DRUG AND ALCOHOL POLICY</NavLink>
+                                            <NavLink to="/environmental_policy" className='dropdown-Nav'>ENVIRONMENTAL POLICY</NavLink>
+                                            <NavLink to="/waste_management_policy" className='dropdown-Nav'>WASTE MANAGEMENT POLICY</NavLink>
+
+                                        </div>
+                                        <div className='right'>
+                                            <NavLink to="/occupational_policy" className='dropdown-Nav'>OCCUPATIONAL HEALTH & SAFETY POLICY</NavLink>
+                                            <NavLink to="/recruitment_policy" className='dropdown-Nav'>RECRUITMENT POLICY</NavLink>
+                                            <NavLink to="/local_content_policy" className='dropdown-Nav'>LOCAL CONTENT DEVELOPMENT POLICY</NavLink>
+                                            <NavLink to="/anti_bribery_policy" className='dropdown-Nav'>ANTI BRIBERY AND CORRUPTION POLICY</NavLink>
+                                        </div>
+                                    </div>
+
                                 </li>
 
                                 <li className="nav-item">
-                                    <NavLink to="/contact" exact activeClassName="active" className="nav-links" onClick={handleClick}>Contact</NavLink>
+                                    <NavLink to="/contact" exact activeClassName="active" className="nav-links">Contact</NavLink>
                                 </li>
 
                             </ul>
@@ -178,7 +209,26 @@ function Navbar() {
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/quality-policy" exact activeClassName="active" className="nav-links" onClick={() => setOpenToggle(false)}>Policy</NavLink>
+                                <Link to="#" exact activeClassName="active" className="nav-links" onClick={() => setOpenDropdown(!openDropdown)}>Policies
+                                    <span><IoIosArrowDown className='icon' /></span>
+                                </Link>
+                                {openDropdown && (
+                                    <div className="navDropdown" aria-labelledby="menu-200">
+                                        <div className='left'>
+                                            <NavLink to="/quality_policy_statement" activeClassName="active" className='dropdown-Nav' onClick={handleDropdown}>Quality Policy Statement</NavLink>
+                                            <NavLink to="/drug_alcohol_policy" activeClassName="active" className='dropdown-Nav' onClick={handleDropdown}>DRUG AND ALCOHOL POLICY</NavLink>
+                                            <NavLink to="/environmental_policy" activeClassName="active" className='dropdown-Nav' onClick={handleDropdown}>ENVIRONMENTAL POLICY</NavLink>
+                                            <NavLink to="/waste_management_policy" activeClassName="active" className='dropdown-Nav' onClick={handleDropdown}>WASTE MANAGEMENT POLICY</NavLink>
+
+                                        </div>
+                                        <div className='right'>
+                                            <NavLink to="/occupational_policy" activeClassName="active" className='dropdown-Nav' onClick={handleDropdown}>OCCUPATIONAL HEALTH & SAFETY POLICY</NavLink>
+                                            <NavLink to="/recruitment_policy" activeClassName="active" className='dropdown-Nav' onClick={handleDropdown}>RECRUITMENT POLICY</NavLink>
+                                            <NavLink to="/local_content_policy" activeClassName="active" className='dropdown-Nav' onClick={handleDropdown}>LOCAL CONTENT DEVELOPMENT POLICY</NavLink>
+                                            <NavLink to="/anti_bribery_policy" activeClassName="active" className='dropdown-Nav' onClick={handleDropdown}>ANTI BRIBERY AND CORRUPTION POLICY</NavLink>
+                                        </div>
+                                    </div>
+                                )}
                             </li>
 
                             <li className="nav-item">
