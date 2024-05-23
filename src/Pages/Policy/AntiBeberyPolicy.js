@@ -6,15 +6,14 @@ function AntiBeberyPolicy() {
         <div>
             <PolicyComponent
                 otherPagesTitle="ANTI BRIBERY AND CORRUPTION POLICY"
-                pageTitle="ANTI BRIBERY AND CORRUPTION POLICY"
                 pageSpan="Policy"
-                pageSubtitle="ANTI BRIBERY & CORRUPTION"
+                pageSubtitle="ANTI BRIBERY & CORRUPTION POLICY"
                 policyCard="Anti Bribery & Corruption Policy"
                 isDrugPage="True"
             >
                 <div className='policyText'>
                     <div className='text'>
-                        The purpose of this policy in Leadway Engineering Technologies is to ensure that all LETECH employees and third-party contractors comply to our zero-tolerance position on bribery and corruption.
+                        The purpose of this policy in Leadway Engineering Technologies Ltd is to ensure that all LETECH employees and third-party contractors comply to our zero-tolerance position on bribery and corruption.
                     </div>
 
                     <div className='text'>

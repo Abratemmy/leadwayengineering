@@ -6,9 +6,8 @@ function RecruitmentPolicy() {
         <div>
             <PolicyComponent
                 otherPagesTitle="RECRUITMENT POLICY"
-                pageTitle="RECRUITMENT POLICY"
                 pageSpan="Policy"
-                pageSubtitle="RECRUITMENT"
+                pageSubtitle="RECRUITMENT POLICY"
                 policyCard="Recruitment Policy"
 
             >
@@ -18,7 +17,7 @@ function RecruitmentPolicy() {
                     </div>
 
                     <div className='text'>
-                        This is achieved through an interview process, conducted by a recruitment agency, or our HR department.This is achieved through an interview process, conducted by a recruitment agency, or our HR department.
+                        This is achieved through an interview process, conducted by a recruitment agency, or our HR department.
                     </div>
 
                     <div className='text'>

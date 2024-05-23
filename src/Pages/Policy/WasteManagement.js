@@ -6,10 +6,9 @@ function WasteManagement() {
         <div>
             <PolicyComponent
                 otherPagesTitle="WASTE MANAGEMENT POLICY"
-                pageTitle="WASTE MANAGEMENT POLICY"
                 pageSpan="Policy"
-                pageSubtitle="WASTE MANAGEMENT"
-                policyCard="Waste Management"
+                pageSubtitle="WASTE MANAGEMENT POLICY"
+                policyCard="Waste Management Policy"
 
             >
                 <div className='policyText'>
@@ -18,7 +17,7 @@ function WasteManagement() {
                     </div>
 
                     <div className='text'>
-                        Leadway Engineering Technology Ltd shall, before the execution of any given task, assess the source, type and quality of waste that shall be generated, and ensure that acceptable methods of waste collection is put in place, for evacuation.
+                        Leadway Engineering Technologies Ltd shall, before the execution of any given task, assess the source, type and quality of waste that shall be generated, and ensure that acceptable methods of waste collection is put in place, for evacuation.
                     </div>
 
                     <div className='text'>

@@ -7,7 +7,6 @@ function LocalContentPolicy() {
         <div>
             <PolicyComponent
                 otherPagesTitle="LOCAL CONTENT DEVELOPMENT POLICY"
-                pageTitle="LOCAL CONTENT DEVELOPMENT POLICY"
                 pageSpan="Policy"
                 pageSubtitle="LCD Policy"
                 policyCard="Local Content Development"
@@ -31,13 +30,6 @@ function LocalContentPolicy() {
                         <CgEditBlackPoint className='icon' />
                         <span>
                             Leadway Engineering Technologies Ltd sources project materials in country, except where such materials cannot be sourced locally.
-                        </span>
-                    </div>
-
-                    <div className='text'>
-                        <CgEditBlackPoint className='icon' />
-                        <span>
-                            We maximize local content participation in the oil and gas industry in Nigeria.
                         </span>
                     </div>
 

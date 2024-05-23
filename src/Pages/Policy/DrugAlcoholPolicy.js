@@ -6,10 +6,9 @@ function DrugAlcoholPolicy() {
         <div>
             <PolicyComponent
                 otherPagesTitle="DRUG AND ALCOHOL POLICY"
-                pageTitle="DRUG AND ALCOHOL POLICY"
                 pageSpan="Policy"
-                pageSubtitle="DRUG AND ALCOHOL"
-                policyCard="Drug & Alcohol"
+                pageSubtitle="DRUG AND ALCOHOL POLICY"
+                policyCard="Drug & Alcohol Policy"
 
             >
                 <div className='policyText'>

@@ -6,7 +6,6 @@ function QualityPolicy() {
         <div>
             <PolicyComponent
                 otherPagesTitle="Quality Policy Statement"
-                pageTitle="Quality Policy Statement"
                 pageSpan="Policy"
                 pageSubtitle="Quality Policy"
                 policyCard="Quality Policy Statement"

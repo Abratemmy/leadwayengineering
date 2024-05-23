@@ -7,15 +7,14 @@ function OccupationalPolicy() {
         <div>
             <PolicyComponent
                 otherPagesTitle="OCCUPATIONAL HEALTH & SAFETY POLICY"
-                pageTitle="OCCUPATIONAL HEALTH & SAFETY POLICY"
                 pageSpan="Policy"
-                pageSubtitle="Occupational Health & Safety"
-                policyCard="Occupational Health & Safety"
+                pageSubtitle="Occupational Health & Safety Policy"
+                policyCard="Occupational Health & Safety Policy"
 
             >
                 <div className='policyText'>
                     <div className='text'>
-                        Leadway Engineering Technologies Ltd occupational health and Safety Management System complies with all applicable legal requirements, national and international standards.
+                        This occupational health and Safety Management System complies with all applicable legal requirements, national and international standards.
                     </div>
 
                     <div className='text'>

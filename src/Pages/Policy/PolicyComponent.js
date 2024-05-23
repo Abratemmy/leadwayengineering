@@ -8,7 +8,7 @@ import policy3 from "../../Assets/policy3.jpg"
 import './Policy.scss'
 
 
-function PolicyComponent({ isDrugPage, otherPagesTitle, pageTitle, pageSpan, pageSubtitle, policyCard, children }) {
+function PolicyComponent({ isDrugPage, otherPagesTitle, pageSubtitle, pageSpan, policyCard, children }) {
     return (
         <div>
             <OtherPagesBg
@@ -18,7 +18,6 @@ function PolicyComponent({ isDrugPage, otherPagesTitle, pageTitle, pageSpan, pag
             <div className='policyContainer'>
                 <div className='container'>
                     <PageTitle
-                        title={pageTitle}
                         subTitle={pageSubtitle}
                         span={pageSpan}
                     />

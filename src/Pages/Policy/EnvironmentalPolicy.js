@@ -7,9 +7,8 @@ function EnvironmentalPolicy() {
         <div>
             <PolicyComponent
                 otherPagesTitle="ENVIRONMENTAL POLICY"
-                pageTitle="ENVIRONMENTAL POLICY"
                 pageSpan="Policy"
-                pageSubtitle="ENVIRONMENTAL"
+                pageSubtitle="ENVIRONMENTAL POLICY"
                 policyCard="Environmental Policy"
 
             >
