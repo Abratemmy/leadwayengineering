@@ -1,6 +1,5 @@
 import React from 'react'
 import PolicyComponent from './PolicyComponent'
-import PageTitle from '../../components/PageTitle/PageTitle'
 
 function AntiBeberyPolicy() {
     return (
