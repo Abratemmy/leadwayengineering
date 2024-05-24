@@ -155,12 +155,12 @@ function HomeBanner() {
                                                 <h4>Direct Support</h4>
                                             </div>
                                             <div class="content">
-                                                <h3>30 Days</h3>
-                                                <h4>Gurantee</h4>
+                                                <h3>Longevity</h3>
+                                                <h4>Reliable Supply</h4>
                                             </div>
                                             <div class="content">
                                                 <h3>Life time</h3>
-                                                <h4>Free Transportation</h4>
+                                                <h4>Technical Expertise</h4>
                                             </div>
                                         </div>
                                     </div>

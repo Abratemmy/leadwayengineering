@@ -25,7 +25,7 @@ function AntiBeberyPolicy() {
                     </div>
 
                     <div className='text'>
-                        This policy also applies to officers, trustees, and board members.
+                        This policy also applies to board members and all our partners.
                     </div>
 
                     <div className='text'>

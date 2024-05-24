@@ -33,7 +33,7 @@ function HomeAbout() {
                                             <i class="flaticon-home"></i>
                                         </div>
                                         <div class="content">
-                                            <h4 class="title">Quality solutions</h4>
+                                            <h4 class="title">Quality Solutions</h4>
                                         </div>
                                     </div>
                                 </div>

@@ -43,7 +43,7 @@ function About() {
                                 </div>
 
                                 <div className='text'>
-                                    We adopts project appraisal through incremental cash flow analysis, to
+                                    We adopt project appraisal through incremental cash flow analysis, to
                                     ensure that non-operating cash outflows are assessed. The three combination
                                     of Cs being our focal point are customers, competition and change; and
                                     these have ultimately created a new world for our business which is a
@@ -59,7 +59,7 @@ function About() {
                                                     <i class="flaticon-home"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title">Quality solutions</h4>
+                                                    <h4 class="title">Quality Solutions</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -153,7 +153,7 @@ function About() {
 
                     <div className='ClientBenefit'>
                         <PageTitle
-                            title="Leadway Engineering Technologies Limited Dedication to our Client"
+                            // title="Leadway Engineering Technologies Limited Dedication to our Client"
                             subTitle="Our Clients' Benefits"
                             span="benefits"
                         />

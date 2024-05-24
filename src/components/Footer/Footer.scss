@@ -69,6 +69,14 @@
                         font-size: 15px;
                         color: #bebcbc;
                         padding-bottom: 5px;
+                        a{
+                            color: #bebcbc;
+                            transition: 0.4s all ease;
+                            font-size: 16px;
+                        }
+                        a:hover{
+                            color: var(--primaryColor)
+                        }
                     }
                 }
             }
