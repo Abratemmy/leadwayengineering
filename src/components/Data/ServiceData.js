@@ -1,4 +1,17 @@
-import { GiArchBridge, GiArmorPunch, GiAncientRuins, GiAbstract120, GiArrowFlights, GiArmoredBoomerang, GiAngularSpider, GiAmputation, GiAbstract014, GiArrowWings, GiAllSeeingEye, GiBatBlade } from "react-icons/gi";
+import {
+    GiArchBridge,
+    GiArmorPunch,
+    GiAncientRuins,
+    GiAbstract120,
+    GiArrowFlights,
+    GiArmoredBoomerang,
+    GiAngularSpider,
+    GiAmputation,
+    GiAbstract014,
+    GiArrowWings,
+    GiAllSeeingEye,
+    // GiBatBlade 
+} from "react-icons/gi";
 
 const serviceData = [
     {
