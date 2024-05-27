@@ -47,7 +47,7 @@ function About() {
                                     ensure that non-operating cash outflows are assessed. The three combination
                                     of Cs being our focal point are customers, competition and change; and
                                     these have ultimately created a new world for our business which is a
-                                    balanced score card, like the executive dashboard, is an essential tool. The
+                                    balanced score card, like the executive dashboard. The
                                     new golden rule gives enormous power to those individuals and units.
                                 </div>
 
@@ -129,14 +129,14 @@ function About() {
                                         </div>
                                     </div>
                                     <div className='content'>
-                                        <h4>Our Values</h4>
+                                        <h4>Core Values</h4>
                                         <div className='text'>
-                                            This is company’s ethics or ideals that guide us when making decisions,
+                                            These are company’s ethics or ideals which guide us when making decisions,
                                             building relationships and solving problems. These values help us develop and
                                             achieve our professional goals.
                                         </div>
                                         <div className="text">
-                                            In LE Tech, the acronym <strong>“TRICCC”</strong> is used to define our core values, and there
+                                            In LE Tech, the acronym <strong>“TRICCC”</strong> is used to define our core values, and they
                                             are as follows:
                                         </div>
                                         <div className='textValues'><strong>T </strong>-Teamwork</div>
@@ -200,7 +200,7 @@ function About() {
                         <div className="text">
                             <span><TbListDetails className='icon' /></span>
                             We stock, sell, supply and offer technical advice on all sizes and grades of
-                            casings and tubing (OCTG) and Line Pipes.
+                            casings, tubing and pipes.
                         </div>
 
                     </div>

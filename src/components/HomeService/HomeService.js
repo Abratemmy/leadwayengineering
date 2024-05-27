@@ -11,7 +11,7 @@ function HomeService({ page }) {
             <div className={page === 'HomePage' ? 'overlay' : 'overlay2 overlay'}>
                 <div className='container'>
                     <PageTitle
-                        title="Best services we are providing for our client"
+                        title="Best services we are providing to our clients"
                         subTitle="Services"
                         span="Services"
                     />

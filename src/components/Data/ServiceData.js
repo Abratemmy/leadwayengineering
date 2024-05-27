@@ -62,14 +62,14 @@ const serviceData = [
         text: "We carefully evaluate lease agreements and consider all relevant factors before entering into a lease agreement.",
         icon: <GiAbstract014 />
     },
+    // {
+    //     id: 11,
+    //     title: "Torgue operation",
+    //     text: "We carefully monitor and control torque to prevent equipment damage, optimize drilling performance, and ensure safety. ",
+    //     icon: <GiBatBlade />
+    // },
     {
         id: 11,
-        title: "Torgue operation",
-        text: "We carefully monitor and control torque to prevent equipment damage, optimize drilling performance, and ensure safety. ",
-        icon: <GiBatBlade />
-    },
-    {
-        id: 12,
         title: "Training",
         text: "We invest in comprehensive training programs to ensure the safety of workers, protect the environment, and maintain operational excellence.",
         icon: <GiAllSeeingEye />

@@ -81,7 +81,8 @@ function Footer() {
                                     </div>
                                     <div className='list'>
                                         <span><CgEditBlackPoint className='icon' /></span>
-                                        <NavLink to="/services/Integrity-test/certifications" className="footerNav">Integrity Test</NavLink>
+                                        <NavLink to="/services/Integrity-test/certifications" className="footerNav">Integrity Test </NavLink>
+                                        <span style={{ paddingLeft: '10px', color: '#bebcbc' }}>e.t.c</span>
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +101,9 @@ function Footer() {
                                     <div className='list'>
                                         <span><MdPhone className='icon' /></span>
                                         <div className="contactText">
-                                            +234 (0) 802 342 9177; +234 (0) 816 086 1494
+                                            <a href="tel:+2348160861494" >+234 (0) 816 086 1494 </a>, <br />
+                                            <a href="tel:+2348023429177">+234 (0) 802 342 9177</a>,
+
                                         </div>
                                     </div>
 

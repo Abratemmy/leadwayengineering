@@ -57,7 +57,7 @@ function LiftingEquipment() {
                                         <div className='text'>
                                             <FaTint className='icon' />
                                             <span>
-                                                Spider Crane Lifting a porter
+                                                Spider Crane Lifting a portal cabin
                                             </span>
                                         </div>
                                         <div className='text'>

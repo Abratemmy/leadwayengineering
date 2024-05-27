@@ -92,7 +92,7 @@ function RigSurvey() {
                                         asset, such as buildings or equipment, to assess its condition, safety, and
                                         compliance with regulations; this can otherwise be referred to as facility
                                         inspection. We establish the facility inspection checklist which will enable us to
-                                        accurately report back to our client.
+                                        accurately report back to our clients.
                                     </div>
 
                                     <div className='text'>

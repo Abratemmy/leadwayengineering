@@ -46,15 +46,16 @@ function HomeBanner() {
                                             </span>
                                         </NavLink>
                                         </div>
-                                        <div><NavLink to="/service" className="pagebutton pagebuttonDark">
-                                            <span className='btn-arrow before'>
-                                                <IoIosArrowRoundForward className="icon" />
-                                            </span>
-                                            Services
-                                            <span className='btn-arrow after'>
-                                                <IoIosArrowRoundBack className="icon" />
-                                            </span>
-                                        </NavLink>
+                                        <div>
+                                            <NavLink to="/service" className="pagebutton pagebuttonDark">
+                                                <span className='btn-arrow before'>
+                                                    <IoIosArrowRoundForward className="icon" />
+                                                </span>
+                                                Services
+                                                <span className='btn-arrow after'>
+                                                    <IoIosArrowRoundBack className="icon" />
+                                                </span>
+                                            </NavLink>
 
                                         </div>
                                     </div>
@@ -155,12 +156,12 @@ function HomeBanner() {
                                                 <h4>Direct Support</h4>
                                             </div>
                                             <div class="content">
-                                                <h3>Longevity</h3>
-                                                <h4>Reliable Supply</h4>
+                                                <h3><br /></h3>
+                                                <h4>Reliable & Trusted Services</h4>
                                             </div>
                                             <div class="content">
-                                                <h3>Life time</h3>
-                                                <h4>Technical Expertise</h4>
+                                                <h3><br /></h3>
+                                                <h4>Cost Effective</h4>
                                             </div>
                                         </div>
                                     </div>
