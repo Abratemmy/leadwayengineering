@@ -13,7 +13,7 @@ function HomeWork() {
                         <PageTitle
                             span="Works"
                             subTitle="Works"
-                            title="We've constructed a secure & personalised experience"
+                            title="We have constructed a secure & personalised experience"
                         >
                             <div className='pageTitleText'>
                                 We adopts project appraisal through incremental cash flow analysis, to

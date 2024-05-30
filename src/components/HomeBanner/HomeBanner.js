@@ -153,15 +153,15 @@ function HomeBanner() {
                                             </div>
                                             <div class="content">
                                                 <h3>24/7</h3>
-                                                <h4>Direct Support</h4>
+                                                <h4>Customer Service</h4>
                                             </div>
                                             <div class="content">
                                                 <h3><br /></h3>
-                                                <h4>Reliable & Trusted Services</h4>
+                                                <h4>Professionalism</h4>
                                             </div>
                                             <div class="content">
                                                 <h3><br /></h3>
-                                                <h4>Cost Effective</h4>
+                                                <h4>Competitive Pricing</h4>
                                             </div>
                                         </div>
                                     </div>
