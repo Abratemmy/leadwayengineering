@@ -101,8 +101,9 @@ function Footer() {
                                     <div className='list'>
                                         <span><MdPhone className='icon' /></span>
                                         <div className="contactText">
-                                            <a href="tel:+2348160861494" >+234 (0) 816 086 1494 </a>, <br />
-                                            <a href="tel:+2348023429177">+234 (0) 802 342 9177</a>,
+
+                                            <a href="tel:+2348023429177">+234 (0) 802 342 9177</a>,<br />
+                                            <a href="tel:+2348160861494" >+234 (0) 816 086 1494 </a>,
 
                                         </div>
                                     </div>

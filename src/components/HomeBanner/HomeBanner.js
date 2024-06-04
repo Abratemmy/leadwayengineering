@@ -152,8 +152,8 @@ function HomeBanner() {
                                                 <h3>Our Clients <span> Benefits</span></h3>
                                             </div>
                                             <div class="content">
-                                                <h3>24/7</h3>
-                                                <h4>Customer Service</h4>
+                                                <h3><br /></h3>
+                                                <h4>24hrs Customer Service</h4>
                                             </div>
                                             <div class="content">
                                                 <h3><br /></h3>

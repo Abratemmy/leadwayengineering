@@ -60,8 +60,8 @@ function Navbar() {
                                     <li>
                                         <div class="header-info">
                                             <h6>Emergency Call</h6>
-                                            <span>+234 816 086 1494 <br />
-                                                +234 802 342 9177</span>
+                                            <span>+234 802 342 9177 <br />
+                                                +234 816 086 1494</span>
                                         </div>
                                     </li>
                                 </ul>
