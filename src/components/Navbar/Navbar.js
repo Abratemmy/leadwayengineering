@@ -59,7 +59,7 @@ function Navbar() {
                                     <li><MdOutlineCall className='icon' /></li>
                                     <li>
                                         <div class="header-info">
-                                            <h6>Emergency Call</h6>
+                                            <h6>Hot Lines</h6>
                                             <span>+234 802 342 9177 <br />
                                                 +234 816 086 1494</span>
                                         </div>
